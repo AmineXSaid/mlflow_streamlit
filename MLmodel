@@ -1,0 +1,16 @@
+artifact_path: C:\Users\med-a\Desktop\Img Classification
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.12
+  tensorflow:
+    code: null
+    meta_graph_tags:
+    - serve
+    saved_model_dir: tfmodel
+    signature_def_key: serving_default
+mlflow_version: 1.29.0
+model_uuid: 312c0b86bd45435387475de7feaa0c43
+run_id: 141bc9b7fbad4a3ca7a50ef91e1ef0e3
+utc_time_created: '2022-10-19 00:46:56.622415'
